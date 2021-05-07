@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg = "dynamic_tut" name= "window1" type = "GUI"/>
+    <node pkg = "dynamic_tut" name= "window2" type = "My_GUI"/>
+</launch>

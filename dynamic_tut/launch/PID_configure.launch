@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "serial_test" name= "serial_gate" type = "serial_send" />
+    <node pkg = "teleop_manual" name= "Get_keyboard" type = "Get_cmd_vel" />
+    <node pkg = "dynamic_tut" type = "configure_mode" name = "mode_car"/>
+    <node pkg = "dynamic_tut" type = "configure_PID1" name = "Motor_Left"/>
+    <node pkg = "dynamic_tut" type = "configure_PID2" name = "Motor_Right"/>
+</launch>
